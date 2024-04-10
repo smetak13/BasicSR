@@ -165,7 +165,7 @@ if __name__ == '__main__':
             'Programming Language :: Python :: 3.8',
         ],
         license='Apache License 2.0',
-        setup_requires=['cython', 'numpy', 'torch'],
+        setup_requires=[],
         install_requires=get_requirements(),
         ext_modules=ext_modules,
         zip_safe=False,
